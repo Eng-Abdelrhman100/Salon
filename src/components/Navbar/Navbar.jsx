@@ -88,10 +88,10 @@ const Navbar = ({ isLoggedIn , role }) => {
                 </>
               ) : (
                 <>
-                  <li><Link to="/">الصفحة الرئيسية</Link></li>
-                  <li><Link to="/salons">قائمة الصلونات</Link></li>
-                  <li><Link to="/about">عن الخدمة</Link></li>
-                  <li><Link to="/myorders">طلباتي</Link></li>
+                  <li><Link to="/home">الصفحة الرئيسية</Link></li>
+                  <li><Link to="/menu">قائمة الصلونات</Link></li>
+                  <li><Link to="/service">خدمات الصالونات</Link></li>
+                  <li><Link to="/order">طلباتي</Link></li>
                   <li><Link to="/contact">تواصل معنا</Link></li>
                   <li><Link to="/logout">تسجيل الخروج</Link></li>
                 </>

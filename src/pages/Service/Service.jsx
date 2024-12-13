@@ -174,15 +174,15 @@ const Service = () => {
                 <>
                   <label>
                     رقم البطاقة:
-                    <input type="text" name="cardNumber" required onChange={handleInputChange} />
+                    <input type="text" name="cardNumber" className='text-black' required onChange={handleInputChange} />
                   </label>
                   <label>
                     تاريخ الانتهاء:
-                    <input type="text" name="expiryDate" placeholder="MM/YY" required onChange={handleInputChange} />
+                    <input type="text" name="expiryDate" className='text-black' placeholder="MM/YY" required onChange={handleInputChange} />
                   </label>
                   <label>
                     CVV:
-                    <input type="text" name="cvv" required onChange={handleInputChange} />
+                    <input type="text" name="cvv" className='text-black' required onChange={handleInputChange} />
                   </label>
                 </>
               )}

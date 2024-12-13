@@ -47,6 +47,7 @@ function App() {
     <AuthProvider>
         <Navbar isLoggedIn={!!auth.token} role={auth.role} />
         <Routes>
+          <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path="/home" element={<PrivateRoute element={<Home/>} role="user" />} />
           <Route path="/menu" element={<PrivateRoute element={<Menu/>} role="user" />} />
