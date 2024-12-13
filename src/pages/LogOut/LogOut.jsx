@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import './Logout.css';
+import './LogOut.css';
 
 const Logout = ({ onLogout }) => {
   const navigate = useNavigate();
